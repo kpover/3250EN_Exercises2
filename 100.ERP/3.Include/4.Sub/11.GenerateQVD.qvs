@@ -1,0 +1,25 @@
+﻿///$tab Main
+/* ___________________________________________________________________________
+  |   Evolcon's GenerateQVD  sub function 11.GenerateQVD.qvs 
+  |
+  | Stores TableName records into a QVD in DestinationFolder
+  | Use the function QVDLoad to execute. examples:
+  | call GenerateQVD ('Order_Details', '$(vG.QVDPath)Facts\');
+*/
+
+
+SUB GenerateQVD (TableName, DestinationFolder)
+
+	STORE $(TableName) INTO $(DestinationFolder)$(TableName).qvd;
+	
+	TableStatistics:
+	LOAD 
+		'$(TableName)'             	AS TableName, 
+		NoOfRows('$(TableName)')   	AS TableRows,
+		NoOfFields('$(TableName)') 	AS TableFields,
+		date(now(), 'hh:mm:ss') 	AS ReloadTime
+	AUTOGENERATE 1;
+	
+	DROP TABLE $(TableName);
+
+END SUB

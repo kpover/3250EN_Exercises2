@@ -1,0 +1,13 @@
+﻿ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,Default Administration Container,
+Shared,99.Shared,Default Shared Container,
+Sales,1.Sales,Container for the Sales Perspective,
+ERP,100.ERP,Container to store all data extracted from the ERP system,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

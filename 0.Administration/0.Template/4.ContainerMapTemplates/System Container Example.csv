@@ -1,0 +1,8 @@
+ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,Default Administration Container,
+Shared,99.Shared_folders,Default Shared Container,
+AcmeS,1.AcmeStore,First Company or Department Container,
+AcmeT,2.AcmeTravel,Second Company or Department Container,
+Oracle,98.Systems\1.Oracle,First System Container containing Oracle Data,
+SAP,98.Systems\2.SAP,Second System Container containing SAP Data,
+SQL,98.Systems\3.SQL,Third System Container containing MS-SQL Data,

@@ -1,0 +1,8 @@
+﻿ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,Default Administration Container,
+Shared,99.Shared,Default Shared Container,
+Corp,1.Corporate,Container for the Companys Executive Dashboard,
+SAP,100.DataSources\1.SAP,Container to store all needed SAP BO tables,
+Access,100.DataSources\2.Access,Container to store all needed Access tables,
+WholeSale,2.WholeSaleAcc,Container for the Access Sales Application,
+,,,

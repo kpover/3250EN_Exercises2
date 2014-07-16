@@ -1,0 +1,23 @@
+// This Sub will check if a file or folder exists
+// Use before load to avoid errors during script load 
+// Syntax example in the script:
+// call vL.FileExist ('$(vL.MetaDataQVDPath)\SOE.QVD')
+// Local Variable vL.FileExist returns false or true
+// example usage:
+// if vL.FileExist = 'false' then; trace '### DF Did not find file, exit script'; exit script; endif;
+
+sub vL.FileExist (vL.Root)
+
+	if IsNull(filesize('$(vL.Root)')) = -1  then
+		SET vL.FileExist='false';
+   	else   
+		SET vL.FileExist='true';
+	endif
+	set vL.Root=;
+end sub;
+
+
+// **********************************
+// Application written by Frederik Nünning
+// QlikTech GmbH
+// **********************************

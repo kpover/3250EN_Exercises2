@@ -1,0 +1,5 @@
+ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,Default Administration Container,
+Shared,99.Shared_folders,Default Shared Container,
+Proj1,1.Company_Project,First Company department or project,
+Proj2,2.Company_Project,Second Company department or project,

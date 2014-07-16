@@ -1,0 +1,11 @@
+ContainerPathName,ContainerFolderName,ContainerComments,RootPath
+Admin,0.Administration,Default Administration Container,
+Shared,99.Shared_folders,Default Shared Container,
+AcmeS,1.AcmeStore,First Company or Department Container,
+AcmeT,2.AcmeTravel,Second Company or Department Container,
+DACH,98.Regions\1.DACH,Read Only Container for DACH,
+APAC,98.Regions\2.APAC,Read Only Container for APAC,
+AM,98.Regions\3.Americas,Read Only Container for Americas,
+ASDACH,1.AcmeStoreDACH,AcmeStore container in DACH region,\\DACH\QV\
+ASAPAC,1.AcmeStoreAPAC,AcmeStore Container in APAC region,\\APAC\QV\
+ATAM,2.AcmeTravelAm,AcmeTravel Container in Americas Region,\\AM\QV\

@@ -1,0 +1,10 @@
+//  ____________________________________________________________
+// |      Deployment Framework Path Info txt                   |
+// | Contains information folder purpose and base variable     |
+// |  All path are based on vG.BasePath                        |
+// |___________________________________________________________|
+
+// vG.BasePath is base path for this container
+// vG.MediaPath Folder is used to store any graphical resource used in the Layout construction 
+
+Global Base Search Path Variable = $(vG.MediaPath)
